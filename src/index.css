@@ -1,0 +1,32 @@
+body{
+  background-color: #1b1b32;
+  color: white;
+  text-align: center;
+}
+.logo{
+  width: 100%;
+  font-size: 3em;
+  
+}
+/* contenedor principal */
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task{
+  width:600px ;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+.task-title{
+  font-family: 'Times New Roman', Times, serif;
+  color: #1b1b32;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
