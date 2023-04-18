@@ -78,3 +78,44 @@ body{
   background-color: #5a01a7;
   text-decoration: line-through;
 }
+/* formulario */
+
+
+.task-form{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.task-input{
+  width: 330px;
+  font-size: 18px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  outline: none;
+}
+
+.task-btn{
+  padding: 16px;
+  font-size: 18px;
+  font-family:sans-serif;
+  border-radius: 0 4px 4px;
+  cursor: pointer;
+  outline: none;
+  background: #00471b;
+  color:#fff;
+  text-transform: capitalize;
+
+}
+
+.task-btn:hover{
+  background: #026b2a;
+}
+
+/* lista de tareas */
+.task-list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}

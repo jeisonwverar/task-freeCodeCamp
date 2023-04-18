@@ -1,16 +1,16 @@
 
 
 export const TaskForm = ({setData,data}) => {
-    const hadleChange=(e)=>{
-        console.log(e.target.value)
-    }
-    const hadleSubmit=()=>{
-
+    const handleSubmit=(e)=>{
+      const newTask={
+        id:3456,
+        task:''
+      }
     }
   return (
-    <form className='task-form' onChange={hadleChange}>
-        <input type="text" name='task' value={data.taskName} className="" />
-        <input type="submit" value="Enviar" />
+    <form className='task-form' >
+        <input type="text" name='task'  className="task-input" placeholder="Escribe una tarea"/>
+        <button className="task-btn">Agregar tarea</button>
     </form>
   )
 }
